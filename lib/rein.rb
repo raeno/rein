@@ -13,7 +13,6 @@ require 'rein/constraint/exclusion'
 require 'rein/constraint/validate'
 require 'rein/schema'
 require 'rein/type/enum'
-require 'rein/view'
 
 module ActiveRecord
   class Migration # :nodoc:
@@ -31,6 +30,5 @@ module ActiveRecord
     include Rein::Constraint::Validate
     include Rein::Schema
     include Rein::Type::Enum
-    include Rein::View
   end
 end
