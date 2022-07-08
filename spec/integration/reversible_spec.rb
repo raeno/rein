@@ -78,10 +78,4 @@ RSpec.describe 'Reversible' do
     Migrator.down(2)
     expect(TableConstraint.where(constraint_name: 'books_title_presence')).to_not exist
   end
-
-  it 'reverses views' do
-    expect(View.where(table_name: 'books_per_author')).to exist
-    Migrator.down(2)
-    expect(View.where(table_name: 'books_per_author')).to_not exist
-  end
 end

@@ -75,11 +75,11 @@ DEPENDENCIES
   activerecord (~> 4.2.8)
   appraisal (~> 2.2.0)
   bundler (~> 2.0)
-  pg (~> 0.21.0)
+  pg
   rake (~> 12.3.2)
   rein!
   rspec (~> 3.8.0)
   rubocop (~> 0.67.2)
 
 BUNDLED WITH
-   2.1.4
+   2.3.7

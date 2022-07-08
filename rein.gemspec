@@ -19,7 +19,7 @@ Gem::Specification.new do |spec|
   spec.add_runtime_dependency 'activesupport', '>= 4.0.0'
 
   spec.add_development_dependency 'appraisal', '~> 2.2.0'
-  spec.add_development_dependency 'pg', '~> 0.21.0'
+  spec.add_development_dependency 'pg'
   spec.add_development_dependency 'bundler', '~> 2.0'
   spec.add_development_dependency 'rake', '~> 12.3.2'
   spec.add_development_dependency 'rspec', '~> 3.8.0'
