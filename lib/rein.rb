@@ -1,5 +1,4 @@
 require 'active_record'
-require 'rein/constraint/check'
 require 'rein/constraint/foreign_key'
 require 'rein/constraint/inclusion'
 require 'rein/constraint/length'
@@ -16,7 +15,6 @@ require 'rein/type/enum'
 
 module ActiveRecord
   class Migration # :nodoc:
-    include Rein::Constraint::Check
     include Rein::Constraint::ForeignKey
     include Rein::Constraint::Inclusion
     include Rein::Constraint::Length
